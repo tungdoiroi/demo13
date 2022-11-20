@@ -1,0 +1,162 @@
+.header{
+    height: 200px;
+}
+.navbar{
+    display: flex;
+
+}
+.header__navbar-logo {
+    flex:1;
+
+}
+.header__navbar-logo img{
+    max-width: 100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin: 0 8px;
+}
+.header__navbar-list{
+    list-style: none;
+    flex:3;
+    min-width: 600px;
+
+}
+
+.header__navbar-item{
+    display: inline-block;
+    align-items: center;
+}
+.header__navbar-item a{
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.form-control{
+    flex:1;
+    height: 40px;
+    background-color: rgba(236, 209, 182, 0.34);
+    /*border: 2px solid red;*/
+    border-radius: 25px;
+}
+.hostline{
+    flex:1;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hostline a{
+    text-align: center;
+    justify-content: flex-end;
+}
+
+/*comtainer*/
+/*.main{*/
+
+/*}*/
+/*.container{*/
+
+/*}*/
+/*.content{*/
+/*    width: 75%;*/
+/*    float: left;*/
+/*    min-height: 400px;*/
+/*}*/
+/*.content ul {*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*}*/
+/*.content ul li{*/
+/*    list-style: none;*/
+/*    clear: left;*/
+/*    border-bottom: 2px solid #FFFFFF;*/
+/*    float: left;*/
+/*}*/
+/*.content ul li img {*/
+/*    float:left;*/
+/*    width: 400px;*/
+/*    height: 300px;*/
+/*    margin-right: 20px;*/
+/*}*/
+/*.content ul li h2{*/
+/*    font-size: 18px;*/
+/*}*/
+/*!*.duan img{*!*/
+/*!*    flex: 1;*!*/
+/*!*    width: 300px;*!*/
+/*!*    height: 200px;*!*/
+/*!*}*!*/
+/*!*.duan h{*!*/
+/*!*    flex: 1;*!*/
+/*!*}*!*/
+/*.right{*/
+/*    width: 25%;*/
+/*    background: blue;*/
+/*    float: left;*/
+/*    min-height: 400px;*/
+/*}*/
+.main{
+    margin: 20px;
+}
+.container{
+    display: flex;
+}
+.duan{
+    display: flex;
+    padding-top: 30px;
+    min-height: 200px;
+
+}
+.duan img{
+    width: 400px;
+    height: 300px;
+
+}
+.conten-title{
+    justify-items: center;
+    margin: 20px 20px;
+}
+.right{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 400px;
+    background: #F6F6F7;
+    height: 800px;
+}
+.new{
+
+}
+.new-content{
+    display: flex;
+
+}
+.new-content img{
+    width: 50px;
+    height: 30px;
+    margin: 15px 10px;
+}
+/*---------Footer---------*/
+.footer{
+    display: flex;
+    background-color: #F6F5F7;
+    padding-top: 20px;
+    margin: 30px 40px;
+}
+.footer-one{
+    padding-left: 40px;
+    flex: 1;
+}
+.footer-one img{
+    text-align:  center;
+}
+.footer-second{
+    flex: 1;
+}
+.footer-three{
+    flex: 1;
+}
+.footer-four{
+    flex: 1;
+}
+
